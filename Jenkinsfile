@@ -10,7 +10,7 @@ node {
         docker-php-ext-install bcmath
         curl -sS https://getcomposer.org/installer | php
         mv composer.phar /usr/local/bin/composer
-        git config --global --add safe.directory /var/jenkins_home/workspace/project6
+        git config --global --add safe.directory /var/jenkins_home/workspace/laravel-dev
         php -v
         php -m | grep bcmath
         composer --version
@@ -33,9 +33,9 @@ node {
           chmod 700 ~/.ssh
           ssh-keyscan -H "$PROD_HOST" >> ~/.ssh/known_hosts
 
-          ssh -o StrictHostKeyChecking=no ubuntu@$PROD_HOST "mkdir -p /home/ubuntu/prod.kelasdevops.xyz"
+          ssh -o StrictHostKeyChecking=no den@$PROD_HOST "mkdir -p /home/den/prod.kelasdevops.xyz"
 
-          rsync -rav --delete ./ ubuntu@$PROD_HOST:/home/ubuntu/prod.kelasdevops.xyz/ \
+          rsync -rav --delete ./ den@$PROD_HOST:/home/den/prod.kelasdevops.xyz/ \
             --exclude=.env \
             --exclude=storage \
             --exclude=.git
