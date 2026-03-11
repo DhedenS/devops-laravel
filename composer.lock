@@ -51,33 +51,6 @@
             ],
             "authors": [
                 {
-<<<<<<< HEAD
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "A DOMPDF Wrapper for Laravel",
-            "keywords": [
-                "dompdf",
-                "laravel",
-                "pdf"
-            ],
-            "support": {
-                "issues": "https://github.com/barryvdh/laravel-dompdf/issues",
-                "source": "https://github.com/barryvdh/laravel-dompdf/tree/v3.1.1"
-            },
-            "funding": [
-                {
-                    "url": "https://fruitcake.nl",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/barryvdh",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-02-13T15:07:54+00:00"
-=======
                     "name": "Jérôme Gamez",
                     "email": "jerome@gamez.name"
                 }
@@ -234,7 +207,6 @@
                 }
             ],
             "time": "2025-04-07T21:36:08+00:00"
->>>>>>> 8ffd3a83c94155c05419011edc99aca36086d19b
         },
         {
             "name": "brick/math",
