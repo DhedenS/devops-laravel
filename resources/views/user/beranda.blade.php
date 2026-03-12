@@ -9,7 +9,7 @@
 
     <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
       <div class="col-xl-6 col-lg-8">
-        <h3>MENGHUBUNGKAN PETANI KE PASAR, DENGAN MUDAH.</h3>
+        <h3>MENGHUBUNGKAN MAHASISWA KE POLLIJE, DENGAN MUDAH.</h3>
         <h>“Karena Setiap Panen Layak Mendapatkan Nila Terbaik.”</h>
       </div>
     </div>
